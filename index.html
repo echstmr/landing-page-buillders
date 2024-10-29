@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <!-- CSS FILE -->
+     <link rel="stylesheet" href="style.css">
+     <!-- LINKS -->
+     <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.min.css"rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+<button
+        type="button"
+        class="btn-floating btn-lg"
+        id="btn-back-to-top"
+        >
+  <i class="fas fa-arrow-up"></i>
+</button>
+    <!-- HEADER/NAVBAR -->
+
+        <div class="header">
+            <nav class="nav-bar">
+                <div class="logo" onclick="location.href='#home'"><H1>Builders</H1></div>
+                <ul id="navList">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#whyus">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+               <div class="nav-btn"> <button onclick="location.href='#contact'">Let's Talk</button></div>
+               <span class="menu-btn" id="menuBtn"><i class="fa-solid fa-bars fa-flip-both fa-2xl" style="color: #00000;"></i></span>
+            </nav>
+        </div>
+        
+    <!-- HERO SECTION -->
+
+        <div class="hero " id="home" >
+            <div class="contents reveal-left">
+                <h1>Let’s build it together</h1>
+                <p>Building beautiful homes one dream at a time with solid <br>
+                    foundations for a brighter future is our mission. <br>
+                Make your vision a reality now. </p>
+                <div class="hero-btn"><button onclick="location.href='#contact'">Hire Us</button></div>
+            </div>
+
+            <div class="img reveal-right">
+                <img src="./img/hero-img.png" alt="">
+                <!-- <span class="text">Superior design</span>
+                <span class="text">Superior design</span>
+                <span class="text">Superior design</span> -->
+            </div>
+        </div>
+
+    <!-- SERVICES SECTION -->
+     
+        <div class="services-header " id="services">
+            <h1>Our Services</h1>
+            <p>Let’s partner up and start realizing your dream building.</p>
+        </div>
+
+
+        <div class="details-container ">
+
+             <div class="services-details reveal-left">
+
+                <img src="./img/services-img.png" alt="">
+
+                <div class="captions">
+                <h4>Office buildings</h4>
+                <p>We build elegant office buildings that can be custom-made to suit
+                 your office needs at an affordable price.</p>
+                <div class="services-btn"><button>Learn more</button></div>
+                </div>
+            </div>
+
+            <div class="services-details reveal-right" id="details2">
+
+                <div class="captions ">
+                <h4>Office buildings</h4>
+                <p>We build mansions that can be custom-made to suit your unique preferences.</p>
+                <div class="services-btn"><button>Learn more</button></div>
+                </div>
+
+                <img src="./img/services-img2.png" alt="">
+            </div>
+
+            <div class="services-details reveal-bottom">
+                
+                <img src="./img/services-img3.png" alt="">
+
+                <div class="captions">
+                <h4>Office buildings</h4>
+                <p>We build houses that are eco-friendly and help bring a serene environment for brany outdoor activity.We build houses
+                  that are eco-friendly and help bring a serene environment for any outdoor activity.</p>
+                <div class="services-btn"><button>Learn more</button></div>
+                </div>
+            </div>
+
+                
+        </div>
+
+    <!-- WHY CHOOSE US SECTION -->
+            <div class="why-us reveal-bottom" id="whyus">
+                <div class="whyus-header">
+                    <h1>Why Choose Us   </h1>
+                </div>
+                <div class="info">
+                <div class="info-img">
+                    <img src="./img/whyus-img.png" alt="">
+                </div>
+
+                <div class="icons">
+                    
+                    <div class="p"><p>At Eco-builders, we place the client’s needs first and build <br>
+                     structures that will have a positive impact on their lives.</p></div>
+                    
+                    <div class="icon1">
+                  
+                    <div class="icon-info">
+                            <span><img src="./img/whyus-icon1.png" alt=""></span>
+                            <p>Eco-friendly</p>
+                    </div>
+                    <div class="icon-info">
+                            <span><img src="./img/whyus-icon1.png" alt=""></span>
+                            <p>Eco-friendly</p>
+                    </div>
+                    <div class="icon-info">
+                            <span><img src="./img/whyus-icon1.png" alt=""></span>
+                            <p>Eco-friendly</p>
+                    </div>
+                    
+                    </div>
+
+                    <div class="icon1">
+
+                        <div class="icon-info">
+                            <span><img src="./img/whyus-icon1.png" alt=""></span>
+                            <p>Eco-friendly</p>
+                        </div>
+                        <div class="icon-info">
+                            <span><img src="./img/whyus-icon1.png" alt=""></span>
+                            <p>Eco-friendly</p>
+                        </div>
+                        <div class="icon-info">
+                            <span><img src="./img/whyus-icon1.png" alt=""></span>
+                            <p>Eco-friendly</p>
+                        </div>
+                   
+                    </div>
+
+                </div>  
+
+                </div>
+              
+            </div>
+
+    <!-- CONTACT SECTION -->
+     <div class="lets-talk reveal-bottom" id="contact">
+        <h1>Let’s Talk</h1>
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            <div class="email input">
+                <input type="hidden" name="access_key" value="42b6cdad-2cc4-4091-bfcc-695308abcef4">
+
+                <label for="email">Enter your email</label>
+                <input type="email" placeholder="Email" class="email-input" name="email" required>
+            </div>
+            <div class="Name input">
+                <label for="email">Enter your Full name</label>
+                <input type="text" placeholder="Full name" class="name-input"  name="name" required>
+            </div>
+            <div class="message input">
+                <label for="email">Enter a message</label>
+                <input type="text" placeholder="Message" class="message-input"required>
+            </div>
+
+            <div class="message-btn"><button type="submit">Send message</button></div>
+        </form>
+      
+     
+     </div>
+
+     <!-- FOOTER SECTION -->
+        <div class="footer">
+          <p class="copyright">All rights reserved Builders © 2024</p>
+        </div>            
+
+       
+       
+    <!-- JS FILE -->
+    <script src="app.js"></script>
+
+    <!-- JS LINKS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>
